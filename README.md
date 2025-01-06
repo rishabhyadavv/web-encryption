@@ -255,51 +255,7 @@ base64Decode(input: string): string
 
 ---
 
-## 📦 **Methods**
-
-```typescript
-export interface Keypair {
-  publicKey: string;
-  privateKey: string;
-}
-
-// AES
-export function generateAESKey(keySize?: number): Promise<string>;
-export function encryptAES(data: string, keyBase64: string): Promise<string>;
-export function decryptAES(data: string, keyBase64: string): Promise<string>;
-
-// RSA
-export function generateRSAKeyPair(): Promise<Keypair>;
-export function encryptRSA(data: string, publicKeyBase64: string): Promise<string>;
-export function decryptRSA(data: string, privateKeyBase64: string): Promise<string>;
-
-// ECDSA
-export function generateECDSAKeyPair(): Promise<Keypair>;
-export function signDataECDSA(data: string, privateKeyBase64: string): Promise<string>;
-export function verifySignatureECDSA(data: string, signatureBase64: string, publicKeyBase64: string): Promise<boolean>;
-
-// Hashing
-export function hashSHA256(input: string): Promise<string>;
-export function hashSHA512(input: string): Promise<string>;
-
-// HMAC
-export function generateHMACKey(keySize: number): Promise<string>;
-export function hmacSHA256(data: string, key: string): Promise<string>;
-
-// Utility
-export function generateRandomString(length: number): string;
-export function base64Encode(input: string): string;
-export function base64Decode(input: string): string;
-```
-
----
 
 ## 📝 **License**
 
 MIT
-
-## 🤝 **Contributing**
-
-Contributions are welcome! Please create a pull request or raise an issue for any bugs or improvements.
-
-**Happy Encrypting! 🚀🔐**

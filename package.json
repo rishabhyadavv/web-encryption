@@ -1,5 +1,5 @@
 {
-  "name": "web-encryption",
+  "name": "web-secure-encryption",
   "description": "A encryption library for ReactJS and React Native Web",
   "version": "1.0.0",
   "main": "dist/index.js",
