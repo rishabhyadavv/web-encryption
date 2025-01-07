@@ -11,13 +11,13 @@
 Using **npm**:
 
 ```bash
-npm install web-encryption
+npm install web-secure-encryption
 ```
 
 Using **yarn**:
 
 ```bash
-yarn add web-encryption
+yarn add web-secure-encryption
 ```
 
 ---
