@@ -18,7 +18,16 @@
     "access": "public",
     "tag": "latest"
   },
-  "keywords": [],
+  "keywords": [
+  "data-encryption",
+  "AES-encryption",
+  "RSA-encryption",
+  "secure-app-storage",
+  "hmac-encryption",
+  "data-security",
+  "crypto-library",
+  "web-encryption"
+],
   "author": "",
   "license": "ISC",
   "dependencies": {
